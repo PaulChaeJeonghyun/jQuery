@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Ex1</title>
+   <link rel="stylesheet" href="css/world.css">
+   <script src="/lib/jquery-3.6.0.min.js"></script>
+   <script>
+      //selection for the image
+      $(document).ready(function () {
+         let $world = $("#world");
+         // event to the btn
+         $("#btnStart").click(function () {
+            $world.animate({
+               left: "600px"
+            }, 4000);
+         })
+      });
+   </script>
+
+</head>
+
+
+<body>
+   <div id="panel">
+      <div id="bar"></div>
+      <img src="img/world.png" alt="world" id="world">
+   </div>
+   <div id="btn">
+      <button id="btnStart">Moving the world</button>
+   </div>
+</body>
+
+</html>

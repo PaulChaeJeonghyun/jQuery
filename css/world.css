@@ -1,0 +1,29 @@
+#panel {
+   width: 800px;
+   height: 400px;
+   border: 1px solid #999;
+   position: relative;
+}
+#bar {
+   position: absolute;
+   left: 50px;
+   top: 270px;
+   width: 700px;
+   height: 15px;
+   background-color: #f33;
+}
+#world {
+   /* height: 100px; */
+   width: 150px;
+   position: absolute;
+   left: 50px;
+   top: 110px;
+}
+#btn {
+   text-align: center;
+   width: 800px;
+}
+#btnStart {
+   font-size: 24px;
+   font-weight: bold;
+}
